@@ -6,20 +6,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'All About Salesforce Marketing Cloud',
+  tagline: 'Excellence as duty',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://arthurbackouche.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'arthurbackouche', // Usually your GitHub org/user name.
+  projectName: 'arthurbackouche', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,7 +66,6 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -72,13 +73,41 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '/category/ssjs',
             position: 'left',
-            label: 'Tutorial',
+            label: 'SSJS',
+          },
+          {
+            type: 'doc',
+            docId: '/category/ampscript',
+            position: 'left',
+            label: 'AMPScript',
+          },
+          {
+            type: 'doc',
+            docId: '/category/sfmc-sql',
+            position: 'left',
+            label: 'SFMC SQL',
+          },
+          {
+            type: 'doc',
+            docId: '/category/sfmc-config',
+            position: 'left',
+            label: 'SFMC Config',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://www.linkedin.com/in/arthurbackouche/',
+            label: 'LinkedIn',
+            position: 'right',
+          },
+          {
+            href: 'https://trailblazer.me/id/arthurbackouche',
+            label: 'Salesforce',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/arthurbackouche',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,8 +120,41 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'SSJS',
+                to: '/docs/category/ssjs',
+              },
+              {
+                label: 'AMPScript',
+                to: '/docs/category/AMPScript',
+              },
+              {
+                label: 'SFMC SQL',
+                to: '/docs/category/sfmc-sql',
+              },
+              {
+                label: 'SFMC Config',
+                to: '/docs/category/sfmc-config',
+              },
+            ],
+          },
+          {
+            title: 'My Socials',
+            items: [
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/arthurbackouche/',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/channel/UCHPcmgOhmdf0O691uWJImAA',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/arthurbackouche/',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/arthurbackouche',
               },
             ],
           },
@@ -100,34 +162,25 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Trailhead',
+                href: 'https://trailblazer.me/id/arthurbackouche',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
+                label: 'StackExchange',
+                href: 'https://salesforce.stackexchange.com/users/121938/arthur-backouche',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/arthurbackouche',
+              },
+              {
+                label: 'ProductHunt',
+                href: 'https://www.producthunt.com/@arthurbackouche',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Arthur Backouche.`,
       },
       prism: {
         theme: lightCodeTheme,

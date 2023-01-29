@@ -1,8 +1,8 @@
 {
-  "/blog-be7": {
+  "/blog-22d": {
     "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "items": [
@@ -21,49 +21,49 @@
     ],
     "metadata": "b2b675dd"
   },
-  "/blog/archive-b87": {
+  "/blog/archive-2df": {
     "__comp": "9e4087bc",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "archive": "b2f554cd"
   },
-  "/blog/first-blog-post-947": {
+  "/blog/first-blog-post-e98": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/blog/long-blog-post-6ae": {
+  "/blog/long-blog-post-e09": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/blog/mdx-blog-post-1c9": {
+  "/blog/mdx-blog-post-c52": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/blog/tags-1a8": {
+  "/blog/tags-b2d": {
     "__comp": "01a85c17",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "tags": "a7023ddc"
   },
-  "/blog/tags/docusaurus-399": {
+  "/blog/tags/docusaurus-179": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "items": [
@@ -83,10 +83,10 @@
     "tag": "a80da1cf",
     "listMetadata": "608ae6a4"
   },
-  "/blog/tags/facebook-fa7": {
+  "/blog/tags/facebook-634": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "items": [
@@ -97,10 +97,10 @@
     "tag": "031793e1",
     "listMetadata": "096bfee4"
   },
-  "/blog/tags/hello-5b2": {
+  "/blog/tags/hello-b4a": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "items": [
@@ -114,10 +114,10 @@
     "tag": "30a24c52",
     "listMetadata": "66406991"
   },
-  "/blog/tags/hola-915": {
+  "/blog/tags/hola-308": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "items": [
@@ -128,76 +128,64 @@
     "tag": "e16015ca",
     "listMetadata": "4c9e35b1"
   },
-  "/blog/welcome-f66": {
+  "/blog/welcome-1f4": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "39ba5584"
+      "plugin": "ad3ee965"
     },
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/markdown-page-8f9": {
+  "/markdown-page-c63": {
     "__comp": "1f391b9e",
     "__context": {
-      "plugin": "8f3de106"
+      "plugin": "f148ff68"
     },
     "content": "393be207"
   },
-  "/docs-293": {
+  "/docs-4b2": {
     "__comp": "1be78505",
     "__context": {
-      "plugin": "91abd604"
+      "plugin": "7547e7ac"
     },
     "versionMetadata": "935f2afb"
   },
-  "/docs/category/tutorial---basics-d44": {
+  "/docs/AMPScript/create-a-page-543": {
+    "__comp": "17896441",
+    "content": "989f3799"
+  },
+  "/docs/category/ampscript-547": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "ea88f2a1"
+    "categoryGeneratedIndex": "d38b0f54"
   },
-  "/docs/category/tutorial---extras-f09": {
+  "/docs/category/sfmc-config-adb": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "c844b82d"
+    "categoryGeneratedIndex": "a3149873"
   },
-  "/docs/intro-aed": {
+  "/docs/category/sfmc-sql-044": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "fe814629"
+  },
+  "/docs/category/ssjs-e9d": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "33505b03"
+  },
+  "/docs/SFMC Config/create-a-page-46e": {
     "__comp": "17896441",
-    "content": "0e384e19"
+    "content": "48e75a7a"
   },
-  "/docs/tutorial-basics/congratulations-793": {
+  "/docs/SFMC SQL/create-a-page-71a": {
     "__comp": "17896441",
-    "content": "822bd8ab"
+    "content": "90257123"
   },
-  "/docs/tutorial-basics/create-a-blog-post-68e": {
+  "/docs/SSJS/create-a-page-3cb": {
     "__comp": "17896441",
-    "content": "533a09ca"
+    "content": "7c0e8c72"
   },
-  "/docs/tutorial-basics/create-a-document-c2d": {
-    "__comp": "17896441",
-    "content": "1e4232ab"
-  },
-  "/docs/tutorial-basics/create-a-page-f44": {
-    "__comp": "17896441",
-    "content": "5c868d36"
-  },
-  "/docs/tutorial-basics/deploy-your-site-e46": {
-    "__comp": "17896441",
-    "content": "f55d3e7a"
-  },
-  "/docs/tutorial-basics/markdown-features-4b7": {
-    "__comp": "17896441",
-    "content": "18c41134"
-  },
-  "/docs/tutorial-extras/manage-docs-versions-fdd": {
-    "__comp": "17896441",
-    "content": "dff1c289"
-  },
-  "/docs/tutorial-extras/translate-your-site-2d7": {
-    "__comp": "17896441",
-    "content": "e44a2883"
-  },
-  "/-958": {
+  "/-b5c": {
     "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "8f3de106"
+      "plugin": "f148ff68"
     },
     "config": "5e9f5e1a"
   }

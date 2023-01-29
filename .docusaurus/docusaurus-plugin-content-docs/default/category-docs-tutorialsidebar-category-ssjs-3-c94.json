@@ -1,0 +1,16 @@
+{
+  "title": "SSJS",
+  "description": "SSJS is a server-side scripting language similar to JavaScript and it is executed at the Salesforce Marketing Cloud servers.",
+  "slug": "/category/ssjs-3",
+  "permalink": "/docs/category/ssjs-3",
+  "navigation": {
+    "previous": {
+      "title": "Markdown Features",
+      "permalink": "/docs/SFMC SQL/markdown-features"
+    },
+    "next": {
+      "title": "Create a Page",
+      "permalink": "/docs/SSJS/create-a-page"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "AMPScript",
+  "description": "All about configuring Salesforce Marketing Cloud with Automation Studio, Journey Builder and more...",
+  "slug": "/category/ampscript",
+  "permalink": "/docs/category/ampscript",
+  "navigation": {
+    "previous": {
+      "title": "Create a Page",
+      "permalink": "/docs/SSJS/create-a-page"
+    },
+    "next": {
+      "title": "Create a Page",
+      "permalink": "/docs/AMPScript/create-a-page"
+    }
+  }
+}

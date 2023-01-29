@@ -1,0 +1,8 @@
+{
+  "label": "SFMC Config",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Everything on how to configuring Salesforce Marketing Cloud"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "SSJS",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "SSJS is a server-side scripting language similar to JavaScript and it is executed at the Salesforce Marketing Cloud servers."
+  }
+}

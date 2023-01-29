@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial - Extras",
+  "slug": "/category/tutorial---extras",
+  "permalink": "/arthurbackouche/docs/category/tutorial---extras",
+  "navigation": {
+    "previous": {
+      "title": "Congratulations!",
+      "permalink": "/arthurbackouche/docs/tutorial-basics/congratulations"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/arthurbackouche/docs/tutorial-extras/manage-docs-versions"
+    }
+  }
+}

@@ -4,13 +4,15 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "All About Salesforce Marketing Cloud",
+  "tagline": "Excellence as duty",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://arthurbackouche.github.io",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "arthurbackouche",
+  "projectName": "arthurbackouche",
+  "deploymentBranch": "gh-pages",
+  "trailingSlash": false,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -26,7 +28,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/arthurbackouche/arthurbackouche/sidebars.js",
+          "sidebarPath": "/Users/arthurbackouche/My Webiste/arthurbackouche/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +36,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/arthurbackouche/arthurbackouche/src/css/custom.css"
+          "customCss": "/Users/arthurbackouche/My Webiste/arthurbackouche/src/css/custom.css"
         }
       }
     ]
@@ -42,7 +44,6 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -50,9 +51,27 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "/category/ssjs",
           "position": "left",
-          "label": "Tutorial"
+          "label": "SSJS"
+        },
+        {
+          "type": "doc",
+          "docId": "/category/ampscript",
+          "position": "left",
+          "label": "AMPScript"
+        },
+        {
+          "type": "doc",
+          "docId": "/category/sfmc-sql",
+          "position": "left",
+          "label": "SFMC SQL"
+        },
+        {
+          "type": "doc",
+          "docId": "/category/sfmc-config",
+          "position": "left",
+          "label": "SFMC Config"
         },
         {
           "to": "/blog",
@@ -60,7 +79,17 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://www.linkedin.com/in/arthurbackouche/",
+          "label": "LinkedIn",
+          "position": "right"
+        },
+        {
+          "href": "https://trailblazer.me/id/arthurbackouche",
+          "label": "Salesforce",
+          "position": "right"
+        },
+        {
+          "href": "https://github.com/arthurbackouche",
           "label": "GitHub",
           "position": "right"
         }
@@ -74,8 +103,41 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "SSJS",
+              "to": "/docs/category/ssjs"
+            },
+            {
+              "label": "AMPScript",
+              "to": "/docs/category/AMPScript"
+            },
+            {
+              "label": "SFMC SQL",
+              "to": "/docs/category/sfmc-sql"
+            },
+            {
+              "label": "SFMC Config",
+              "to": "/docs/category/sfmc-config"
+            }
+          ]
+        },
+        {
+          "title": "My Socials",
+          "items": [
+            {
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/arthurbackouche/"
+            },
+            {
+              "label": "Youtube",
+              "href": "https://www.youtube.com/channel/UCHPcmgOhmdf0O691uWJImAA"
+            },
+            {
+              "label": "Instagram",
+              "href": "https://www.instagram.com/arthurbackouche/"
+            },
+            {
+              "label": "Twitter",
+              "href": "https://twitter.com/arthurbackouche"
             }
           ]
         },
@@ -83,34 +145,25 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Trailhead",
+              "href": "https://trailblazer.me/id/arthurbackouche"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
+              "label": "StackExchange",
+              "href": "https://salesforce.stackexchange.com/users/121938/arthur-backouche"
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/arthurbackouche"
+            },
+            {
+              "label": "ProductHunt",
+              "href": "https://www.producthunt.com/@arthurbackouche"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2023 Arthur Backouche."
     },
     "prism": {
       "theme": {

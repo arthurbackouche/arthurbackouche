@@ -1,0 +1,12 @@
+{
+  "title": "SFMC Config",
+  "description": "Everything on how to configuring Salesforce Marketing Cloud",
+  "slug": "/category/sfmc-config",
+  "permalink": "/docs/category/sfmc-config",
+  "navigation": {
+    "next": {
+      "title": "Create a Page",
+      "permalink": "/docs/SFMC Config/create-a-page"
+    }
+  }
+}

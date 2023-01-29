@@ -1,0 +1,16 @@
+{
+  "title": "SFMC SQL",
+  "description": "Learn how to use the Marketing Cloud Structured Query Language (SQL)",
+  "slug": "/category/sfmc-sql",
+  "permalink": "/docs/category/sfmc-sql",
+  "navigation": {
+    "previous": {
+      "title": "Create a Page",
+      "permalink": "/docs/AMPScript/create-a-page"
+    },
+    "next": {
+      "title": "Create a Page",
+      "permalink": "/docs/SFMC SQL/create-a-page"
+    }
+  }
+}
