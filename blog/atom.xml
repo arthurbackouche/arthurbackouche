@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://arthurbackouche.github.io/blog"/>
     <subtitle>All About Salesforce Marketing Cloud Blog</subtitle>
-    <icon>https://arthurbackouche.github.io/img/favicon.ico</icon>
+    <icon>https://arthurbackouche.github.io/img/AB.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://arthurbackouche.github.io/blog/welcome</id>
