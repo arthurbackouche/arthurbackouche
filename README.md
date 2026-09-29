@@ -1,42 +1,29 @@
-# Website
+# Arthur Backouche
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Salesforce Marketing Cloud architect. I build AI agents that do the heavy lifting of Marketing Cloud Next implementations.
 
-### Installation
+## Featured: [mcnext-setup-agent](https://github.com/arthurbackouche/mcnext-setup-agent)
 
-```
-$ yarn
-```
+A team of [Claude Code](https://docs.claude.com/en/docs/claude-code) agents that sets up **Salesforce Marketing Cloud Next** (Data 360 + Marketing Cloud Growth/Advanced) and migrates **Marketing Cloud Engagement** journeys to it.
 
-### Local Development
+- **Asks once, then builds:** every input is collected up front, then the agent sets up licences, Data 360, data kits, identity resolution, the Data Graph, email, Einstein and analytics on its own.
+- **Proves every step** with the org's own data (SOQL), and resumes where it stopped.
+- **Hands over a PDF:** what was done, what was skipped and why, what is left for you.
+- **Safe by design:** a guard hook blocks production changes until a human approves them.
 
-```
-$ yarn start
-```
+[View the project →](https://github.com/arthurbackouche/mcnext-setup-agent)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Also on GitHub
 
-### Build
+| Repository | What it does |
+|---|---|
+| [SFMC_Preference-Center](https://github.com/arthurbackouche/SFMC_Preference-Center) | Preference center for Salesforce Marketing Cloud |
+| [SFMC_FormUploadImage](https://github.com/arthurbackouche/SFMC_FormUploadImage) | Upload images to Marketing Cloud with the REST API from a form |
+| [MobileConnect_FormatAUNumbers](https://github.com/arthurbackouche/MobileConnect_FormatAUNumbers) | SQL automation that formats Australian mobile numbers for MobileConnect |
+| [SFMC-Shopify-eSync_ATC-Email-Template](https://github.com/arthurbackouche/SFMC-Shopify-eSync_ATC-Email-Template) | Add-to-cart email template for the eSync Shopify connector |
 
-```
-$ yarn build
-```
+## Elsewhere
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-# arthurbackouche
+- Marketing Cloud Next guides: [arthurbackouche.com](https://arthurbackouche.com/docs/)
+- LinkedIn: Arthur Backouche
+- Twitter: [@arthurbackouche](https://twitter.com/arthurbackouche)
